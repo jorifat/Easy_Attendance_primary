@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#FD9651"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/adminButtonId"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Admin"
+        android:background="@drawable/button_design"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        ></Button>
+    <Button
+        android:layout_margin="10dp"
+
+    android:id="@+id/studentButtonId"
+        android:background="@drawable/button_design"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Student"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        ></Button>
+
+    <Button
+        android:layout_margin="10dp"
+        android:background="@drawable/button_design"
+        android:id="@+id/teacherButtonId"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Teacher"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        ></Button>
+
+
+
+</LinearLayout>

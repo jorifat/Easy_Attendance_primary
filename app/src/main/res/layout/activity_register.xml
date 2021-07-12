@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FD9651"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:background="@android:color/white"
+        android:id="@+id/admin_nameSignupEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        ></EditText>
+    <EditText
+        android:layout_margin="10dp"
+        android:background="@android:color/white"
+        android:id="@+id/admin_emailSignUpEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        ></EditText>
+    <EditText
+        android:background="@android:color/white"
+        android:layout_margin="10dp"
+        android:id="@+id/admin_passwordSignUpEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        ></EditText>
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/adminSignUpButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:background="@drawable/button_design"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        ></Button>
+
+    <TextView
+        android:id="@+id/adminSignInText"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="0dp"/>
+
+</LinearLayout>

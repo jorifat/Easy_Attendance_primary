@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FD9651"
+    android:orientation="vertical"
+    tools:context=".RadioButtonActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView4Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        ></androidx.recyclerview.widget.RecyclerView>
+    <Button
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:id="@+id/attendanceButtonId"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="@drawable/button_design"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        ></Button>
+
+</LinearLayout>
